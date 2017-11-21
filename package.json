@@ -1,0 +1,24 @@
+{
+  "name": "yoruba-name-meaning",
+  "version": "1.0.0",
+  "description": "Web app for finding the meaning of yoruba names",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/test.js | tap-spec",
+    "start": "nodemon ./serverside/server.js",
+    "nodemon": "nodemon ./serverside/server.js"
+  },
+  "keywords": [
+    "yoruba",
+    "name",
+    "meaning"
+  ],
+  "author": "Fatimat Gbajabiamila",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}

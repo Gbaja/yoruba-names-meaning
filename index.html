@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Yoruba name meaning">
+  <meta name="author" content="Fatimat Gbajabiamila">
+  <title> Yoruba names meaning</title>
+  <link rel="stylesheet" type="text/css" href="public/name-meaning.css">
+</head>
+
+<body>
+  <nav class="navigation">
+    <ul class="navigation__ul">
+      <li class="navigation__list"><a href="#" class="navigation__link"> About project</a></li>
+      <li class="navigation__list"> <a href="#" class="navigation__link">What is Yoruba?</a></li>
+    </ul>
+  </nav>
+  <header class="heading">
+    <h1 class="heading__title">
+      <span class="green">Y</span>
+      <span class="white">O</span>
+      <span class="green">R</span>
+      <span class="white">U</span>
+      <span class="green">B</span>
+      <span class="white">A</span>
+      <br>
+      <span class="green">N</span>
+      <span class="white">A</span>
+      <span class="green">M</span>
+      <span class="white">E</span>
+      <span class="green">S</span>
+      <br>
+      <span class="white">M</span>
+      <span class="green">E</span>
+      <span class="white">A</span>
+      <span class="green">N</span>
+      <span class="white">I</span>
+      <span class="green">N</span>
+      <span class="white">G</span>
+    </h1>
+  </header>
+  <main class="content">
+    <section class="content__formsection">
+      <form class="content__form" action="/name-meaning" method="get" id="formId">
+        <label class="content__form__input-label">
+          <input type="type" name="search" class="content__form__input" id="input-box" aria-labelledby="Enter name" autocomplete="off" list="datalist__auto" required>
+        </label>
+        <datalist class="datalist__autocomplete" id="datalist__auto">
+            
+        </datalist>
+        <button type="submit" name="button" class="content__form__button"> Search </button>
+      </form>
+    </section>
+    <section class="result">
+      <div class="result__outcome">
+        <p id="result__outcome__name" class="result__outcome__name-class"></p>
+        <p id="result__outcome__meaning" class="result__outcome__meaning-class"></p>
+      </div>
+      <div class="wrong__outcome">
+        <p> The name you are searching for is not in the database. Please make sure your spellings are correct. If you would like to add the name, please <a class="wrong__outcome-email" href="mailto:gbajaf@yahoo.co.uk"> email </a> me.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__reference"> Names gotten from <a href="#" class="footer__reference__link"> here </a> </p>
+    <p class="footer__author"> Created by Fatimat Gbajabiamila.</p>
+  </footer>
+</body>
+<script type="text/javascript" src="public/name-meaning.js"></script>
+
+</html>

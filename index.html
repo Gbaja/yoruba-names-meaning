@@ -14,7 +14,7 @@
 <body>
   <nav class="navigation">
     <ul class="navigation__ul">
-      <li class="navigation__list"><a href="#" class="navigation__link"> About project</a></li>
+      <li class="navigation__list"><a href="#" class="navigation__link"> All names </a></li>
       <li class="navigation__list"> <a href="#" class="navigation__link" id="modalBtn">What is Yoruba?</a></li>
     </ul>
   </nav>
@@ -46,12 +46,11 @@
     <section class="content__formsection">
       <form class="content__form" action="/name-meaning" method="get" id="formId">
         <label class="content__form__input-label">
-          <input type="type" name="search" class="content__form__input" id="input-box" aria-labelledby="Enter name" autocomplete="off" list="datalist__auto" required>
+          <input type="type" name="search" class="content__form__input" id="input-box" aria-labelledby="Enter name" autocomplete="off" required>
         </label>
-        <datalist class="datalist__autocomplete" id="datalist__auto">
-        </datalist>
         <button type="submit" name="button" class="content__form__button"> Search </button>
       </form>
+      <ul id="dropdown-section" class="dropdown"></ul>
     </section>
     <section class="result">
       <div class="result__outcome">
@@ -59,7 +58,7 @@
         <p id="result__outcome__meaning" class="result__outcome__meaning-class"></p>
       </div>
       <div class="wrong__outcome">
-        <p> The name you are searching for is not in the database. Please make sure your spellings are correct. If you would like to add the name, please <a class="wrong__outcome-email" href="mailto:gbajaf@yahoo.co.uk"> email </a> me.</p>
+        <p> The name you are searching for is not in the database. Please make sure your spellings are correct and you are typing the full version of the name. If you would like to add the name, please <a class="wrong__outcome-email" href="mailto:gbajaf@yahoo.co.uk"> email </a> me.</p>
       </div>
     </section>
     <section id="whatIsYorubaModal" class="yoruba__modal">
@@ -68,14 +67,14 @@
         <h2>Yorùbá </h2>
         <p class="yoruba__modal-info"> Yoruba is one of the three main ethnic groups in Nigeria. Yoruba states are located in southwestern Nigeria. Yoruba people are native speakers of the Yoruba language.  </p>
         <p class="yoruba__modal-info">Names are important to Yoruba people, and it is generally believed that people live their life out based on their name. As a result, Yoruba put lots of thought into coming up with a name, including having naming ceremonies 7 days after the birth of a child. </p>
-        <p class="yoruba__modal-info"> To find out more, visit the wikipedia <a href="https://en.wikipedia.org/wiki/Yoruba_people"> page</a> </p>
+        <p class="yoruba__modal-info"> To find out more, visit the wikipedia <a href="https://en.wikipedia.org/wiki/Yoruba_people" target="_blank"> page</a> </p>
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <!-- <footer class="footer">
     <p class="footer__reference"> Names gotten from <a href="#" class="footer__reference__link"> here </a> </p>
     <p class="footer__author"> Created by Fatimat Gbajabiamila.</p>
-  </footer>
+  </footer> -->
 </body>
 <script type="text/javascript" src="public/name-meaning.js"></script>
 

@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  margin: 0;
+  padding: 0;
   background: #232526;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #414345, #232526);
@@ -41,7 +43,7 @@ body {
 
 .content__form__input {
   width: 12rem;
-  height: 3rem;
+  height: 2rem;
   font-size: 1.3rem;
 }
 
@@ -67,6 +69,21 @@ body {
 
 .wrong__outcome-email {
   color: #008751;
+}
+
+.dropdown{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 1;
+}
+
+.dropdown__list{
+  color: white;
+  border: 2px solid #008751;
+  padding: 0.4rem;
+  width: 15rem;
+  margin: 0 auto;
 }
 
 .yoruba__modal {
@@ -107,6 +124,7 @@ body {
   width: 100%;
   border-top: 2px solid #008751;
   color: white;
+  font-size: 0.5rem;
 }
 
 .footer__reference, .footer__author {
@@ -121,7 +139,7 @@ body {
   .heading {
     width: 90%;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .content__form__input {
     width: 20rem;

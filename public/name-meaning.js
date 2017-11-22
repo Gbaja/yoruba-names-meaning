@@ -59,3 +59,22 @@ form.addEventListener("submit", function(event) {
   }
   input.value = "";
 })
+
+// yoruba__modal
+var whatIsYorubaModal = document.getElementById("whatIsYorubaModal");
+var modalBtn = document.getElementById("modalBtn");
+var closeModalBtn = document.getElementsByClassName("yoruba__modal-close")[0];
+
+modalBtn.addEventListener("click", function(){
+  whatIsYorubaModal.style.display = "block";
+})
+
+closeModalBtn.addEventListener("click", function(){
+  whatIsYorubaModal.style.display = "none";
+})
+
+window.onclick = function(event) {
+    if (event.target == whatIsYorubaModal) {
+        whatIsYorubaModal.style.display = "none";
+    }
+}

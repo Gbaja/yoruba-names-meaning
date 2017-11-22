@@ -17,6 +17,8 @@ var logic = {
         if(xhr.responseText !== ""){
           var result = JSON.parse(xhr.responseText);
           cb(result);
+          displayError.style.display = "none";
+          displayResult.style.display = "block";
         } else{
           displayError.style.display = "block";
           displayResult.style.display = "none";
